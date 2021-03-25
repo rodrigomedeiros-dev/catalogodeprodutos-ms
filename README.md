@@ -22,9 +22,11 @@ Ou altere os dados de conexão com o banco em:
 ```
 src/main/resources/application.properties (aplicação)
 ```
-E altere os dados de conexão com o banco em:
 ```
 src/main/resources/flyway.properties (migration)
+```
+```
+src/test/resources/application.properties
 ```
 Para fazer o build e rodar a aplicação, execute o comando abaixo na raiz do projeto (no terminal)
 ```
