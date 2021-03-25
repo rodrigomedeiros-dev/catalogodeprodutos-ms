@@ -1,0 +1,22 @@
+version: "2.3"
+services:
+  db:
+    container_name: dkrmysql
+    image: mysql:5.7.8
+    restart: always
+    #network_mode: bridge
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      #MYSQL_DATABASE: bd
+      #MYSQL_USER: mastertag
+      #MYSQL_PASSWORD: 'root'
+    ports:
+      - "3306:3306"
+    networks:
+      - minha-rede
+#Docker Networks
+networks:
+  minha-rede:
+    driver: bridge
