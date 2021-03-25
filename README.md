@@ -2,7 +2,7 @@
 
 Implementação de um catálogo de produtos com Java e Spring Boot.
 
-## product-ms
+## catalogodeprodutos-ms
 
 Neste microsserviço é possível criar, alterar, visualizar e excluir um determinado produto, além de visualizar a lista de produtos atuais disponíveis. Também é possível realizar a busca de produtos filtrando por *name, description e price*.
 
